@@ -4,66 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS intro</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Min yndlingsopskrift</title>
   </head>
   <body>
-    
-    <!-- Headings from 1 -> 5 section-->
-    <section>
-    <h1>Heading one</h1>
-    <h2>Heading two</h2>
-    <h3>Heading three</h3>
-    <h4>Heading four</h4>
-    <h5>Heading five</h5>
-    </section>
-    <!-- Paragraph section-->
-    <section>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo nisl
-      id risus tempor convallis. In condimentum lorem mi, ut condimentum quam
-      ultricies non. <i> Italic Mauris vitae auctor metus.</i> Morbi metus
-      lorem, dictum ac ipsum at, dictum ultricies risus. Integer rutrum a massa
-      auctor iaculis. <b> Bold Praesent vel volutpat mauris,</b>
-      <strong> STRONG id gravida nisi.</strong> Donec elementum dolor at porta
-      tempor. Nulla iaculis nisl erat, ut consequat tortor ullamcorper quis.
-      Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus.
-      <sub>Subscript text In hac habitasse platea dictumst.</sub> Morbi justo
-      arcu, efficitur ut leo fermentum, elementum hendrerit mauris. Pellentesque
-      convallis massa nisi,
-      <mark>Mark pharetra sagittis justo tincidunt id.</mark> Donec sit amet
-      ligula eget leo egestas porta. Cras egestas eget massa vel hendrerit.
-      Etiam blandit sit amet metus non vulputate.
-      <sup>Superscript Text Praesent sed lacus vel eros luctus efficitur.</sup>
-    </p>
-    </section>
-    
-    <!-- link section-->
-    <section>
-    <a href="https://www.google.com" target="_blank">Open Google.com in a new tab</a>
-    </section>
-    <!-- img  section-->
-    <section>
-    <img src="assets/img/dickens-lin.jpg" alt="Dickens Lin Jellyfish" style="max-width: 300px; max-height: 500px;"/>
-    </section>
-    <!-- list section-->
-    <section>
-     <ol> <!-- ordered list -->
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-    </ol>
+    <header>
+      <h1>Min yndlingsopskrift</h1>
+      <h2>Pandekager</h2>
+    </header>
 
-    <ul>  <!-- unordered list -->
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-    </ul>
-    </section>
+    <main>
+      <article id="description">
+        <h3>Beskrivelse:</h3>
+        <p>
+          Den evige klassiker! Pandekager er en nem og hurtig måde at lave en
+          lækker morgenmad, dessert eller bare snack på. Dette er Kokkebbogens
+          opskrift på tynde pandekager. Opskriften er til 6 personer.
+        </p>
+      </article>
+
+      <article id="ingredients">
+        <h3>Ingredienser:</h3>
+        <ul>
+          <li>6 Æg</li>
+          <li>8 dl Mælk</li>
+          <li>1 dl Øl (kan udelades)</li>
+          <li>110 g Sukker</li>
+          <li>2 tsk Valiniemarv eller vaniliesukker</li>
+          <li>1 tsk Salt</li>
+          <li>250 g Hvedemel</li>
+          <li>Skal af 1 citron</li>
+          <li>Smør til stegning</li>
+        </ul>
+      </article>
+
+      <article id="nutrition">
+        <h3>Næringsindhold:</h3>
+        <ul>
+          <li>Energi: 175 kcal</li>
+          <li>Protein: 5 g</li>
+          <li>Kulhydrat: 22 g</li>
+          <li>Fedt: 7,5 g</li>
+        </ul>
+        <p>
+          Næringsindhold er baseret på en pandekage med en diameter på 15 cm.
+        </p>
+        <a
+          href="https://www.fatsecret.dk/kalorier-ern%C3%A6ring/generisk/almindelige-pandekager?portionid=39147&portionamount=1,000"
+          >Se eventuelt flere detaljer her</a
+        >
+      </article>
+
+      <article id="instructions">
+        <h3>Fremgangsmåde:</h3>
+        <ol>
+          <li>Pisk æg, mælk og øl sammen</li>
+          <li>Bland alle de tørre ingredienserne i en skål</li>
+          <li>Pisk de våde og de tørre ingredienser sammen</li>
+          <li>Riv skal af en citron i blandingen</li>
+          <li>Steg pandekagerne i smørret</li>
+        </ol>
+      </article>
+    </main>
   </body>
 </html>
