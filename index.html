@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Min yndlingsopskrift</title>
   </head>
   <body>
@@ -22,11 +22,9 @@
         </p>
         
         <table>
-          <thead>
-            <tr>
+            <caption>
             Om opskriften:
-            </tr>
-          </thead>
+            </caption>
           <tbody>
           <tr>
             <th>Antal:</th>
@@ -63,11 +61,9 @@
       <article id="nutrition">
         <h3>Næringsindhold:</h3>
         <table>
-          <thead>
-            <tr>
+            <caption>
             Næringsindhold pr. pandekage med 15cm diameter:
-            </tr>
-          </thead>
+            </caption>
           <tbody>
           <tr>
             <th>Energi</th>
@@ -141,5 +137,54 @@
 
         </article>
     </main>
+    <footer>
+        <!-- SoMe links etc -->
+        <article id="byline">
+            <h4>
+                Følg mig:
+            </h4>
+            
+                <ul class="SoMe-list">
+                    <li class="SoMe-items">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter-square fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa-brands fa-youtube-square fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/" target="_blank">
+                            <i class="fa-brands fa-github-square fa-2xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            
+
+        </article>
+
+        <!-- Newsletter form - not working because HTML and CSS is in focus -->
+        <article id="newsletter">
+            <h4>Tilmeld dig nyhedsbrevet:</h4>
+            <form action="#" method="POST">
+                <input type="text" name="name" id="name" placeholder="Navn" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="submit" value="Tilmeld">
+            </form>
+        </article>
+    </footer>
+    <script src="https://kit.fontawesome.com/d632d8ce37.js" crossorigin="anonymous"></script>
   </body>
 </html>
