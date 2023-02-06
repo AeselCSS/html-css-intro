@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.2;
   margin: 0 0 0.5em;
 }
@@ -41,6 +41,10 @@ ul {
 ol {
   margin: 0 0 0 1.3em;
   padding: 0;
+}
+
+li {
+    margin-top: .5em;
 }
 
 header {
@@ -145,3 +149,18 @@ a:hover {
 #nutrition {
   background: #ffffff;
 }
+
+#tips {
+  background: #faf9f6;
+}
+
+#toppings {
+  background: #ffffff;
+}
+
+.alt-ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+
