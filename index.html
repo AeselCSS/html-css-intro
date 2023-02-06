@@ -1,69 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS intro</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Min yndlingsopskrift</title>
   </head>
   <body>
-    
-    <!-- Headings from 1 -> 5 section-->
-    <section>
-    <h1>Heading one</h1>
-    <h2>Heading two</h2>
-    <h3>Heading three</h3>
-    <h4>Heading four</h4>
-    <h5>Heading five</h5>
-    </section>
-    <!-- Paragraph section-->
-    <section>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo nisl
-      id risus tempor convallis. In condimentum lorem mi, ut condimentum quam
-      ultricies non. <i> Italic Mauris vitae auctor metus.</i> Morbi metus
-      lorem, dictum ac ipsum at, dictum ultricies risus. Integer rutrum a massa
-      auctor iaculis. <b> Bold Praesent vel volutpat mauris,</b>
-      <strong> STRONG id gravida nisi.</strong> Donec elementum dolor at porta
-      tempor. Nulla iaculis nisl erat, ut consequat tortor ullamcorper quis.
-      Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus.
-      <sub>Subscript text In hac habitasse platea dictumst.</sub> Morbi justo
-      arcu, efficitur ut leo fermentum, elementum hendrerit mauris. Pellentesque
-      convallis massa nisi,
-      <mark>Mark pharetra sagittis justo tincidunt id.</mark> Donec sit amet
-      ligula eget leo egestas porta. Cras egestas eget massa vel hendrerit.
-      Etiam blandit sit amet metus non vulputate.
-      <sup>Superscript Text Praesent sed lacus vel eros luctus efficitur.</sup>
-    </p>
-    </section>
-    
-    <!-- link section-->
-    <section>
-    <a href="https://www.google.com" target="_blank">Open Google.com in a new tab</a>
-    </section>
-    <!-- img  section-->
-    <section>
-    <img src="assets/img/dickens-lin.jpg" alt="Dickens Lin Jellyfish" style="max-width: 300px; max-height: 500px;"/>
-    </section>
-    <!-- list section-->
-    <section>
-     <ol> <!-- ordered list -->
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-    </ol>
+    <header>
+      <h1>Min yndlingsopskrift</h1>
+      <h2>Pandekager</h2>
+    </header>
 
-    <ul>  <!-- unordered list -->
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-    </ul>
-    </section>
+    <main>
+      <article id="description">
+        <h3>Beskrivelse:</h3>
+        <p>
+          Den evige klassiker! Pandekager er en nem og hurtig måde at lave en
+          lækker morgenmad, dessert eller bare snack på. 
+        </p>
+        
+        <table>
+            <caption>
+            Om opskriften:
+            </caption>
+          <tbody>
+          <tr>
+            <th>Antal:</th>
+            <td>6 personer</td>
+          </tr>
+          <tr>
+            <th>Tidsforbrug:</th>
+            <td>60-70 minutter</td>
+          </tr>
+          <tr>
+            <th>Bedømmelse:</th>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          </tbody>
+        </table>
+
+      </article>
+
+      <article id="ingredients">
+        <h3>Ingredienser:</h3>
+        <ul>
+          <li>6 Æg</li>
+          <li>8 dl Mælk</li>
+          <li>1 dl Øl (kan udelades)</li>
+          <li>110 g Sukker</li>
+          <li>2 tsk Valiniemarv eller vaniliesukker</li>
+          <li>1 tsk Salt</li>
+          <li>250 g Hvedemel</li>
+          <li>Skal af 1 citron</li>
+          <li>Smør til stegning</li>
+        </ul>
+      </article>
+
+      <article id="nutrition">
+        <h3>Næringsindhold:</h3>
+        <table>
+            <caption>
+            Næringsindhold pr. pandekage med 15cm diameter:
+            </caption>
+          <tbody>
+          <tr>
+            <th>Energi</th>
+            <td>175 kcal</td>
+          </tr>
+          <tr>
+            <th>Protein</th>
+            <td>5 g</td>
+          </tr>
+          <tr>
+            <th>Kulhydrat</th>
+            <td>22 g</td>
+          </tr>
+          <tr>
+            <th>Fedt</th>
+            <td>7,5 g</td>
+          </tr>
+          </tbody>
+        </table>
+        
+        <a
+          href="https://www.fatsecret.dk/kalorier-ern%C3%A6ring/generisk/almindelige-pandekager?portionid=39147&portionamount=1,000"
+          >Se eventuelt flere detaljer her</a>
+      </article>
+
+      <article id="instructions">
+        <h3>Fremgangsmåde:</h3>
+        <ol>
+          <li>Pisk æg, mælk og øl sammen.</li>
+          <li>Bland alle de tørre ingredienserne i en skål.</li>
+          <li>Pisk de våde og de tørre ingredienser sammen.</li>
+          <li>Riv skal af en citron i blandingen.</li>
+          <li>Steg pandekagerne i smørret til de er gyldne.</li>
+        </ol>
+      </article>
+
+        <article id="tips">
+            <h3>Tips:</h3>
+            <ul class="alt-ul">
+            <li>
+                Pandekagerne kan fryses og tages op når de skal bruges. Det er
+                dog bedst at tage dem op dagen før de skal bruges.
+            </li>
+            <li>
+                Det er muligt at lave en større portion af dejen og bage den ad flere omgange.
+                Dejen kan holde sig til dagen efter, hvis den blot står tildækket i køleskabet natten over.
+                Det eneste man skal være opmærksom på er, at dejen skal røres sammen ingen inden brug.
+            </li>
+            <li>
+                Øl kan udelades, men giver en mere sprød pandekage end ellers.
+            </li>
+            </ul>
+        </article>
+
+        <article id="toppings">
+            <h3>Personlige favorit toppings:</h3>
+            <ul class="alt-ul">
+            <li>
+                Friskpresset citronsaft og sukker
+            </li>
+            <li>
+                Is
+            </li>
+            <li>
+                Nutella
+            </li>
+            <li>
+                Frugtkompot
+            </li>
+            </ul>
+
+        </article>
+    </main>
+    <footer>
+        <!-- SoMe links etc -->
+        <article id="byline">
+            <h4>
+                Følg mig:
+            </h4>
+            
+                <ul class="SoMe-list">
+                    <li class="SoMe-items">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter-square fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa-brands fa-youtube-square fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/" target="_blank">
+                            <i class="fa-brands fa-github-square fa-2xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            
+
+        </article>
+
+        <!-- Newsletter form - not working because HTML and CSS is in focus -->
+        <article id="newsletter">
+            <h4>Tilmeld dig nyhedsbrevet:</h4>
+            <form action="#" method="POST">
+                <input type="text" name="name" id="name" placeholder="Navn" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="submit" value="Tilmeld">
+            </form>
+        </article>
+    </footer>
+    <script src="https://kit.fontawesome.com/d632d8ce37.js" crossorigin="anonymous"></script>
   </body>
 </html>
