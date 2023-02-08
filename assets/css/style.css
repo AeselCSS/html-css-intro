@@ -46,6 +46,7 @@ ul {
 }
 
 ol {
+  list-style-type: decimal;
   margin: 0 0 0 1.3em;
   padding: 0;
 }
@@ -179,29 +180,14 @@ input {
   margin: 0.2em;
 }
 
-#ingredients {
+#ingredients, #nutrition, #toppings {
   background: #ffffff;
 }
 
-#instructions {
+#instructions, #description, #tips {
   background: #faf9f6;
 }
 
-#description {
-  background: #faf9f6;
-}
-
-#nutrition {
-  background: #ffffff;
-}
-
-#tips {
-  background: #faf9f6;
-}
-
-#toppings {
-  background: #ffffff;
-}
 
 .alt-ul {
   list-style-type: none;
